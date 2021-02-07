@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="/iconos/clc.png">
+    <link type="text/css" href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/kro0xuq.css">
+</head>
+<body>
+    <table class="calculadora">
+        <tr class="resultados">
+            <td colspan="4"><span id="resultado"></span></td>
+        </tr>
+        <tr>
+            <td><button id="reset">C</button></td><td><button id="porcentaje">%</button></td><td><button id="division">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero">7</button></td><td><button class="numero">8</button></td><td><button class="numero">9</button></td><td><button id="multiplicacion">x</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero">4</button></td><td><button class="numero">5</button></td><td><button class="numero">6</button></td><td><button id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero">1</button></td><td><button class="numero">2</button></td><td><button class="numero">3</button></td><td><button id="suma">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="numero" id="cero">0</button></td><td><button id="punto">.</button></td><td><button id="igual">=</button></td>
+        </tr>
+    </table>
+    <script src="/js/index.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
